@@ -274,9 +274,9 @@
     color: #e7e7e0;
     float: left;
 }
-.VisitaFincas .VisitaFincasCentro .VisitaFincasText .VisitaFincasTitle{
-    margin-bottom: 30px;
+.VisitaFincas .VisitaFincasCentro .VisitaFincasText .finca{
     color: #e7e7e0;
+    margin-bottom: 50px;
 }
 
 .VisitaFincas .VisitaFincasCentro .VisitaFincasBoton{
@@ -440,27 +440,35 @@
     
     .VisitaFincas{
         width: 100%;
-        height: 420px;
+        height: 550px;
     }
     .VisitaFincas .VisitaFincasCentro{
         width: 100%;
-        height: 90%;
+        height: auto;
     }
 
     .VisitaFincas .VisitaFincasCentro .VisitaFincasText{
         width: 100%;
         float: none;
     }
-
+    .VisitaFincas .VisitaFincasCentro .VisitaFincasText .finca{
+        width: 100%;
+        float: none;
+    }
     .VisitaFincas .VisitaFincasCentro .VisitaFincasBoton{
         width: 100%;
         float: none;
-        background-color: none;
-        padding: 3%;
-        margin-top: -240px;
-        margin-left: -250px;
     }
 
+    .resultadoFincas{
+        width: 100%;
+        float: none;
+    }
+
+    .VisitaFincasBut{
+        width: 100%;
+        float: none;
+    }
     .productContainer .productButtons{
         width: 100%;
         height: 11.8%;
