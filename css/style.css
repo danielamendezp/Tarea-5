@@ -1,0 +1,488 @@
+/********** Template CSS **********/
+:root {
+    --primary: #3CB815;
+    --secondary: #F65005;
+    --light: #F7F8FC;
+    --dark: #111111;
+}
+
+
+/*** Section Header ***/
+.section-header {
+    position: relative;
+    padding-top: 25px;
+    text-align:left ;
+}
+
+.section-header::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--primary);
+}
+
+.section-header::after {
+    position: absolute;
+    content: "";
+    width: 90px;
+    height: 2px;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--secondary);
+}
+
+.section-header.text-start::before,
+.section-header.text-start::after {
+    left: 0;
+    transform: translateX(0);
+}
+
+.mejoresFrutas {
+    height: 460px;
+ }
+
+.mejoresFrutas .mejoresFrutasCentro{
+   padding-top: 60px;
+   width: auto;
+   margin: 0 auto;
+}
+.mejoresFrutasCentro .mejoresFrutas_Textos {
+    width: 45%;
+    height: 50%;
+    margin: 0 auto;
+    float: left;
+    margin-right: 20px;
+}
+.mejoresFrutasCentro .mejoresFrutas_Textos .mejoresFrutas_Check{
+    margin-top: 30px;
+}
+
+.mejoresFrutasCentro .mejoresFrutasIMG{
+    width: 45%;
+    height: 50%;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    float: left;
+}
+.mejoresFrutasCentro .mejoresFrutasIMG img{
+    border-radius: 50%;
+    width: 270px;
+    height: 270px;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+
+.mejoresFrutasCentro .mejoresFrutas_Textos .buttonInfo {
+    margin-top: 800px;
+    background-color: #3CB815;
+    color: #F7F8FC;
+    padding: 16px 50px; 
+    border-radius: 50px; 
+}
+
+.nosCaracteriza{
+    padding-top: 30px;
+    background-color: #f7f8fc;
+    height: 600px;
+    width: 100%;
+}
+
+.seccion_Card{
+    margin-top: 20%;
+    margin: 0 auto;
+    padding-left: 16%;
+}
+
+.seccion_Card .card{
+    margin-top: 2%;
+    height: 370px;
+    display: inline-flex;
+    width: 25%;
+    margin-left: 2.5%;
+    text-align: center;
+    padding-top: 2%;
+    padding-left: 0.8%;
+    padding-right: 0.8%;
+}
+
+.seccion_Card .card .imageCard{
+    margin: 0 auto;
+    display: inline;
+}
+
+.nosCaracteriza .section-header{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.nosCaracteriza .cardTitle{
+    padding: 5%;
+}
+
+.nosCaracteriza .cardButton{
+    border: 2px solid #3CB815;
+    padding: 4%;
+    width: 850px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    transition:  #0d2417 0.3s ease;
+}
+
+.nosCaracteriza .cardParrafo{
+    padding-bottom: 5%;
+}
+
+.productSection{
+    width: 80%;
+    height: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+
+.productSection .product .productContainer{
+    width: 200px;
+    background-color: #ffffff;
+    height: 300px;
+    border: #e7e7e0 solid 1px;
+    float: left;
+    margin-right: 8.6%;
+    margin-bottom: 6%;
+}
+
+
+.productSection .product .productContainer .productImage .productImg{
+    width: 100%;
+    height: 110%;
+}
+
+.productContainer .productButtons{
+    width: 100%;
+    height: 11.8%;
+}
+
+.productSection .productButtons .buttonDetail{
+    border: #e7e7e0 solid 2px;
+    padding-top: 6px;
+    padding-bottom: 4px;
+}
+
+.productButtons .buttonDetail .boton{
+    padding-top: 10px;
+    color: #474545;
+    font-size: 75%;
+    padding:10.97%;
+}
+.productSection .product .productContainer .productInfo{
+    display: block;
+    text-align: center;
+}
+
+.productSection .product .productContainer .descripcion{
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+    color: #0d2417;
+    font-weight: bold;
+}
+
+.productSection .product .productContainer .precio{
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+    color: #3CB815;
+    margin-bottom: 3%;
+}
+
+.buttonsProduct {
+    width: 50%; 
+    
+}
+
+.buttonsProduct .buttonsProductos {
+    display: inline-flex;
+    width: 50%; 
+    list-style-type: none;
+    justify-content: end;
+    margin-top: 20%;
+    margin-left: 60%;
+}
+
+.productSection{
+    align-items: left;
+
+}
+.productHeader{
+    display: inline-flex;
+    align-items: left;
+}
+
+.section-headerProduct{
+ width: 40%;
+ text-align: left;
+ justify-content: flex-start;
+}
+
+.section-headerProduct .section-header{
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.buttonsProductos .but .texto {
+    display: inline-flex;
+    text-decoration: none;
+    border: #3CB815 solid;
+    color: #353533;
+    width: 95%; 
+    padding: 5px;
+    margin: 10px; 
+    justify-content: center;
+    transition: color 0.3s;
+}
+
+.buttonsProductos .but .texto:hover {
+    color: #fff;
+    background-color: #3CB815;
+}
+
+.VisitaFincas{
+    background-color: #3CB815;
+    width: 100%;
+    height: 300px;
+    color: #e7e7e0;
+}
+
+.VisitaFincas .VisitaFincasCentro{
+    width: 80%;
+    padding: 30px;
+    color: #e7e7e0;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.VisitaFincas .VisitaFincasCentro .VisitaFincasText{
+    width: 60%;
+    height: 100%;
+    margin-top: 30px;
+    color: #e7e7e0;
+    float: left;
+}
+.VisitaFincas .VisitaFincasCentro .VisitaFincasText .VisitaFincasTitle{
+    margin-bottom: 30px;
+    color: #e7e7e0;
+}
+
+.VisitaFincas .VisitaFincasCentro .VisitaFincasBoton{
+    width: 40%;
+    height: 100%;
+    color: #e7e7e0;
+    float: left;
+}
+
+.VisitaFincas .VisitaFincasCentro .VisitaFincasBoton .VisitaFincasBut{
+    width: 35%;
+    color: #e7e7e0;
+    background-color: #F65005;
+    float: left;
+    border-radius: 20px;
+    text-align: center;
+    padding: 3%;
+}
+
+.footerFinal{
+    background-color: #020202;
+    color: #b7b7b2;
+}
+
+.botFooter {
+    color: #b7b7b2;
+
+}
+
+
+@media (max-width: 788px) {
+
+    .productSection{
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .productHeader{
+        
+        float:none;
+        width: 100%;
+        display: block;
+        
+    }
+
+    .productHeader .section-headerProduct{
+        margin: 0 auto;
+        float:none;
+        width: 90%;
+        margin-left: 20px;
+        
+    }
+
+    .productHeader .buttonsProduct,
+    .productHeader .buttonsProduct .buttonsProductos {
+        justify-content: flex-end; 
+        margin-left: 102px;
+        margin-top: 1px;
+    }
+
+    
+
+    .productSection .product{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        float: none;
+        display: block;
+        margin-left: 13px;
+        margin: 0 auto;
+    }
+    .productSection .product .productContainer{
+        height: 300px;
+        float: none;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 20px;
+        border:none;
+    }
+    
+    .product .productCase{
+        height: 300px;
+        float: none;
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        border: #b4b3b3 solid 1px;
+    }
+
+    .product .productImage{
+        width: 100%;
+        height: 55%;
+        background-color: #3CB815;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .product .productImage .productImg img{
+        width: 100%;
+        height: 55%;
+        background-color: #3CB815;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .VisitaFincas {
+        background-color: #3CB815;
+        width: 100%;
+        height: 600px;
+        color: #e7e7e0;
+    }
+
+    .nosCaracteriza .seccion_Card .card{
+        display: block;
+        width: 80%;
+        height: 340px;
+    }
+
+    .nosCaracteriza{
+        height: 1250px;
+    }
+
+    .mejoresFrutas {
+        height: auto;
+    }
+    
+    .mejoresFrutas .mejoresFrutasCentro {
+        padding-top: 60px;
+        width: 90%; 
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        text-align: left; 
+    }
+    
+    .mejoresFrutasCentro .mejoresFrutas_Textos {
+        width: 100%; 
+        margin-bottom: 30px; 
+        margin-top: 30px;
+    }
+    
+    .mejoresFrutasCentro .mejoresFrutasIMG {
+        width: 100%; 
+        margin-top: 20px; 
+    }
+    
+    .mejoresFrutasCentro .mejoresFrutasIMG img {
+        border-radius: 50%;
+        width: 270px;
+        height: 270px;
+    }
+
+    .mejoresFrutasCentro .mejoresFrutas_Textos .buttonInfo {
+            margin-top: 100px;
+            margin-bottom: 100px;
+    }
+    
+    .VisitaFincas{
+        width: 100%;
+        height: 420px;
+    }
+    .VisitaFincas .VisitaFincasCentro{
+        width: 100%;
+        height: 90%;
+    }
+
+    .VisitaFincas .VisitaFincasCentro .VisitaFincasText{
+        width: 100%;
+        float: none;
+    }
+
+    .VisitaFincas .VisitaFincasCentro .VisitaFincasBoton{
+        width: 100%;
+        float: none;
+        background-color: none;
+        padding: 3%;
+        margin-top: -240px;
+        margin-left: -250px;
+    }
+
+    .productContainer .productButtons{
+        width: 100%;
+        height: 11.8%;
+    }
+    
+    .productSection .productButtons .buttonDetail{
+        border: #e7e7e0 solid 2px;
+        padding-top: 9px;
+        padding-bottom: 15.19px;
+    }
+    
+    .productButtons .buttonDetail .boton{
+        padding-top: 10px;
+        color: #474545;
+        font-size: 75%;
+        padding:15.08%;
+    }
+
+    .productSection .product .productContainer .productInfo{
+        display: block;
+        text-align: center;
+        margin-bottom: 21.3px;
+    }
+    
+}
